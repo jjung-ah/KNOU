@@ -3,14 +3,14 @@ int main(void)
 {
     int x, y;
     int m;
-    printf("ë‘ ê°œì˜ ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤.\n");
-    printf("ì •ìˆ˜ x : ");
-    scanf_s("%d\n", &x);
-    printf("ì •ìˆ˜ y : ");
-    scanf_s("%d\n", &y);
+    printf("µÎ °³ÀÇ Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À.\n");
+    printf("Á¤¼ö x : ");
+    scanf_s("%d", &x);
+    printf("Á¤¼ö y : ");
+    scanf_s("%d", &y);
 
     m = (x+y)/2;
     m = -1 * m;
-    printf("x(%d)ì™€ y(%d)ì˜ í‰ê· ì— ë¶€í˜¸ë¥¼ ë°˜ì „í•œ ê°’ì€ %dì…ë‹ˆë‹¤.", x, y, m);
+    printf("x(%d)¿Í y(%d)ÀÇ Æò±Õ¿¡ ºÎÈ£¸¦ ¹İÀüÇÑ °ªÀº %dÀÔ´Ï´Ù.", x, y, m);
     return 0;
 }
