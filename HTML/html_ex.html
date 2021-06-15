@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>새 요소 삽입</title>
+</head>
+<body>
+	<input type="button" value="요소 추가"
+		onClick="addElement()"></br>
+	<div id="main"></div>
+	<script>
+		function addElement(){
+			var newimg = document.createElement("img");
+			var srcNode = document.createAttribute("src");
+			srcNode.value = "flower.img";
+			var heightNode = documenr.createAttribute("height");
+			heightNode.value = "100";
+			newimg.setAttributeNode(srcNode);
+			newimg.setAttributeNode(heightNode);
+			document.getElementByid("main").appendChild(newimg);
+		}
+	</script>
+</body>
+</html>
